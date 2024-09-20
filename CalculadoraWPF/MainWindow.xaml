@@ -10,6 +10,8 @@
         Width="400"
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" 
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
         
         WindowStyle="None">
 
