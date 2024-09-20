@@ -128,17 +128,9 @@ namespace CalculadoraWPF
                 ResultadoTextBlock.Text += ".";
             }
         }
-
         private void Button_Close(object sender, RoutedEventArgs e)
         {
             this.Close();
-        }
-        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.LeftButton == MouseButtonState.Pressed)
-            {
-                this.DragMove();
-            }
         }
     }
 }
